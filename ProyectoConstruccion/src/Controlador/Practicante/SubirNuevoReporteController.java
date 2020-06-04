@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controlador;
+package Controlador.Practicante;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author Sammy Guergachi <sguergachi at gmail.com>
  */
-public class MenuPrincipalConsultarProyectosController implements Initializable {
+public class SubirNuevoReporteController implements Initializable {
 
     /**
      * Initializes the controller class.

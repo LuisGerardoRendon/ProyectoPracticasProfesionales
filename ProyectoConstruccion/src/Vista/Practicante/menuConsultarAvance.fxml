@@ -24,11 +24,11 @@
       <Label layoutX="20.0" layoutY="149.0" text="Total de horas por cumplir:" />
       <Label layoutX="180.0" layoutY="149.0" text="200" />
       <TableView layoutX="313.0" layoutY="72.0" prefHeight="308.0" prefWidth="274.0">
-        <columns>
-          <TableColumn prefWidth="75.0" text="Nombre " />
-          <TableColumn prefWidth="97.60003662109375" text="Fecha de Etrega" />
+         <columns>
+            <TableColumn prefWidth="75.0" text="Nombre " />
+            <TableColumn prefWidth="97.60003662109375" text="Fecha de Etrega" />
             <TableColumn prefWidth="99.99993896484375" text="Horas Cubiertas" />
-        </columns>
+         </columns>
       </TableView>
       <Label layoutX="191.0" layoutY="187.0" text="0%">
          <font>

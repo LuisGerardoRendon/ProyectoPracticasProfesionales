@@ -10,11 +10,11 @@
    <children>
       <Label layoutX="264.0" layoutY="14.0" text="Subir Reporte" />
       <TableView fx:id="tablaReportes" layoutX="52.0" layoutY="114.0" prefHeight="200.0" prefWidth="489.0">
-        <columns>
-          <TableColumn fx:id="columnsNombreReporte" prefWidth="187.19995498657227" text="Nombre del Reporte" />
-          <TableColumn fx:id="columanFechaCarga" prefWidth="197.6000213623047" text="Fecha de Carga" />
+         <columns>
+            <TableColumn fx:id="columnsNombreReporte" prefWidth="187.19995498657227" text="Nombre del Reporte" />
+            <TableColumn fx:id="columanFechaCarga" prefWidth="197.6000213623047" text="Fecha de Carga" />
             <TableColumn fx:id="columnaHorasCubiertas" minWidth="0.0" prefWidth="105.60003662109375" text="Horas Cubiertas" />
-        </columns>
+         </columns>
       </TableView>
       <Button fx:id="botonSubirNuevoReporte" layoutX="54.0" layoutY="337.0" mnemonicParsing="false" onAction="#subirNuevoReporte" text="Subir nuevo reporte" />
       <Button fx:id="botonRegresar" layoutX="419.0" layoutY="337.0" mnemonicParsing="false" onAction="#regresar" prefHeight="26.0" prefWidth="122.0" text="Regresar" />
