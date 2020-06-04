@@ -11,6 +11,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 
 /**
  * FXML Controller class
@@ -21,6 +22,14 @@ public class ReporteCargado_Controller implements Initializable {
 
     @FXML
     private Button botonCancelar;
+    @FXML
+    private Label labelReporteCargado;
+    @FXML
+    private Label labelNombreArchivo;
+    @FXML
+    private Label labelSetNombreArchivo;
+    @FXML
+    private Button botonSubirReporte;
 
     /**
      * Initializes the controller class.
@@ -32,6 +41,10 @@ public class ReporteCargado_Controller implements Initializable {
 
     @FXML
     private void cancelar(ActionEvent event) {
+    }
+
+    @FXML
+    private void subirReporte(ActionEvent event) {
     }
     
 }
