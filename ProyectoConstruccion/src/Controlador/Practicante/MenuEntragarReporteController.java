@@ -7,7 +7,13 @@ package Controlador.Practicante;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 
 /**
  * FXML Controller class
@@ -16,6 +22,31 @@ import javafx.fxml.Initializable;
  */
 public class MenuEntragarReporteController implements Initializable {
 
+    @FXML
+    private TableView<?> tablaReportes;
+    @FXML
+    private TableColumn<?, ?> columnsNombreReporte;
+    @FXML
+    private TableColumn<?, ?> columanFechaCarga;
+    @FXML
+    private TableColumn<?, ?> columnaHorasCubiertas;
+    @FXML
+    private Button botonSubirNuevoReporte;
+    @FXML
+    private Button botonRegresar;
+    @FXML
+    private Label labelNombreProyecto;
+    @FXML
+    private Label labelFechaIicio;
+    @FXML
+    private Label labelTotalHoras;
+    @FXML
+    private Label labelSetNombreProyecto;
+    @FXML
+    private Label labelSetFechaInicio;
+    @FXML
+    private Label labelSetTotalHoras;
+
     /**
      * Initializes the controller class.
      */
@@ -23,5 +54,13 @@ public class MenuEntragarReporteController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void subirNuevoReporte(ActionEvent event) {
+    }
+
+    @FXML
+    private void regresar(ActionEvent event) {
+    }
     
 }
