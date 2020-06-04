@@ -10,7 +10,7 @@ import java.util.Objects;
 
 /**
  * 
- * @author Sammy Guergachi <sguergachi at gmail.com>
+ * @author Luis Gerardo Rendon Martinez
  */
 public class OrganizacionVO {
     private String idOrganizacion;
@@ -150,6 +150,9 @@ public class OrganizacionVO {
         }
         return true;
     }
+
+    
+    
 
     @Override
     public String toString() {
