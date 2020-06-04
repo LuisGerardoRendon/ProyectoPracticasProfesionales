@@ -7,7 +7,11 @@ package Controlador.Practicante;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 
 /**
  * FXML Controller class
@@ -16,6 +20,17 @@ import javafx.fxml.Initializable;
  */
 public class ReporteCargadoController implements Initializable {
 
+    @FXML
+    private Label labelReporteCargado;
+    @FXML
+    private Label labelNombreArchivo;
+    @FXML
+    private Label labelSetNombreArchivo;
+    @FXML
+    private Button botonSubirReporte;
+    @FXML
+    private Button botonCancelar;
+
     /**
      * Initializes the controller class.
      */
@@ -23,5 +38,13 @@ public class ReporteCargadoController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void surbirReporte(ActionEvent event) {
+    }
+
+    @FXML
+    private void cancelar(ActionEvent event) {
+    }
     
 }
