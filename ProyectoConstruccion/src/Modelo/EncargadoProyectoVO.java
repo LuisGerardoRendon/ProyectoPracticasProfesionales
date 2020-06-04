@@ -60,7 +60,13 @@ public class EncargadoProyectoVO {
     public void setCorreoElectronico(String correoElectronico) {
         this.correoElectronico = correoElectronico;
     }
-    
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        return hash;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -73,7 +79,7 @@ public class EncargadoProyectoVO {
             return false;
         }
         final EncargadoProyectoVO other = (EncargadoProyectoVO) obj;
-        if (this.idEncargadoProyecto != other.idEncargadoProyecto) {
+        if (!Objects.equals(this.idEncargadoProyecto, other.idEncargadoProyecto)) {
             return false;
         }
         if (!Objects.equals(this.nombre, other.nombre)) {
@@ -87,6 +93,8 @@ public class EncargadoProyectoVO {
         }
         return true;
     }
+    
+    
 
     @Override
     public String toString() {
